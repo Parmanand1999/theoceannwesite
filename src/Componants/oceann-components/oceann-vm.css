@@ -1,0 +1,109 @@
+.oceann-vm-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto';
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section2-heading {
+    font-size: 40px;
+    margin-top: -1rem;
+    background: linear-gradient(to left, transparent 0%, transparent 30%, #F39C12 30%, #F39C12 100%);
+    background-position: 0 100%;
+    background-size: 100% 4px;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #183165;
+}
+
+.section2-child1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 738px;
+}
+
+.section3 {
+    background: #E2E2E2;
+    box-shadow: 0px 2.76726px 2.21381px 0px rgba(0, 0, 0, 0.02), 0px 6.6501px 5.32008px 0px rgba(0, 0, 0, 0.03), 0px 12.52155px 10.01724px 0px rgba(0, 0, 0, 0.04), 0px 22.33631px 17.86905px 0px rgba(0, 0, 0, 0.04);
+}
+
+.section3-heading {
+    margin-top: 1rem;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.oceann-vm-section3-carts {
+    border-radius: 22px;
+    border-right: 8px solid #F39C12;
+    border-bottom: 8px solid #F39C12;
+    background: #FFF;
+   
+}
+
+
+.section3-cart-description {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.section4 {
+    background-color: #242331;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    
+}
+.section4-heading {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 1rem;
+}
+
+.section4-img-contaoner {
+    color: white;
+}
+.section4-img-contaoner-bottom {
+    color: #242331;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 2rem;
+}
+
+.section4-img-contaoner-bottom div:first-child {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.section14-child1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 1rem;
+    background: linear-gradient(to left, transparent 0%, transparent 82%, #F39C12 82%, #F39C12 100%);
+    background-position: 0 100%;
+    background-size: 100% 4px;
+    background-repeat: no-repeat;
+}
+
+.section14-child2 {
+color: #183165;
+font-weight: 600;
+font-size: 18px;
+}
+
+.section16-heading {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 32px;
+    font-weight: 600;
+}

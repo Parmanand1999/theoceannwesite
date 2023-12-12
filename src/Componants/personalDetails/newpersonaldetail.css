@@ -1,0 +1,254 @@
+Profile.css
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wholeDiv {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.tableBox {
+    display: flex;
+    flex: 6;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+/* .navbardiv {
+    display: flex;
+    flex: 1;
+    background-color: #003E78;
+    width: 400px;
+
+} */
+
+.leftPart {
+    display: flex;
+
+    flex-direction: column;
+    gap: 1.7em;
+    margin: 0.75em 0.75em 0em 0.75em;
+    /* background-color:red; */
+
+
+}
+
+.rightPart {
+    display: flex;
+    /* background-color: green; */
+    margin: 0.75em 0.75em 0em 0.75em;
+    background-color: white;
+
+}
+
+.topcontent {
+    display: flex;
+    gap: 1.5em;
+    flex-direction: column;
+
+}
+
+.profilePhoto {
+    height: 13.75em;
+    border-radius: 0.75em;
+    margin: 0px 0px 0px 0px;
+}
+
+.linkBox {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1em 5.875em 1em;
+    border-radius: 0.375;
+    height: 18.688;
+    /* background-color:#003E78; */
+    gap: 3px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0.357em 0.375em rgba(199, 199, 199, 0.3);
+
+
+
+
+
+}
+
+.linkItems {
+    padding: 8px 0px 8px 12px;
+    /* background-color:#003E78; */
+    color: black;
+    border-radius: 4px;
+    font-weight: 500;
+    width: 140px;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 14px;
+    word-wrap: break-word;
+    cursor: pointer;
+
+
+}
+
+.linkItemsLast {
+    padding: 8px 0px 3px 12px;
+    /* background-color:#003E78; */
+    color: black;
+    border-radius: 4px;
+    font-weight: 500;
+    width: 140px;
+    font-size: 14px;
+    word-wrap: break-word;
+    cursor: pointer;
+
+
+
+}
+
+.linkItems:hover {
+    color: #003E78
+}
+
+
+
+
+.dataQuestion {
+    font-size: 14px;
+    color: #0e0e0e;
+    word-wrap: break-word;
+    width: 170px;
+}
+
+.dataAnswer {
+    /* padding:12px 45px; */
+    font-size: 14px;
+    color: #666666;
+    word-wrap: break-word;
+    width: 200px;
+
+}
+
+.firstline {
+    display: flex;
+    padding: 12px 24px;
+    /* justify-content: center; */
+    gap: 12px;
+    /* justify-content: center; */
+    align-items: center;
+    /* border-top: 1px solid #dbdbdb; */
+    border-bottom: 1px solid #dbdbdb;
+
+}
+
+.firstlinelast {
+    display: flex;
+    padding: 12px 24px;
+    /* justify-content: center; */
+    gap: 12px;
+
+    /* justify-content: center; */
+    align-items: center;
+    /* border-top: 1px solid #dbdbdb; */
+    /* border-bottom: 1px solid #dbdbdb; */
+
+
+}
+
+.rightline {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.leftline {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.hrline {
+    width: 1px;
+    height: 28px;
+    background-color: #dbdbdb;
+}
+
+.personalDetailTable {
+    padding: 18px 24px 12px 24px;
+    border-radius: 6px;
+    box-shadow: 6px 6px rgba(199, 199, 199, 0.3);
+
+    border: 1px solid #dbdbdb;
+}
+
+.about {
+    margin: 0px 0px 10px 12px;
+    font-size: 18px;
+    font-weight: 500;
+    /* justify-content: start; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editicon {
+    display: flex;
+
+}
+
+.editIcon {
+    height: 20px;
+    width: 20px;
+}
+
+.profile-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    /* background-color: #f5f5f5; */
+    margin-top: 3%;
+    height: 400px;
+    /* Replace with your theme color */
+}
+
+.profile-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.plansButton {
+    background-color: blue;
+    font-weight: 600;
+}
+
+.dashboardButton {
+    background-color: grey;
+    margin-left: 1%;
+    font-weight: 600;
+}
+
+.profile-label {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.profile-value {
+    flex: 2;
+}
+
+.profileBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.profileButtons {
+    background-color: #F39C12;
+    margin-right: 2%;
+    font-weight: 400;
+}
+
+
+

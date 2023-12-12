@@ -1,0 +1,108 @@
+/* new css */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.myProfileRightpart {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto 1px auto auto;
+  grid-template-rows: auto auto auto;
+  width: 100%;
+  box-shadow: 0.357em 0.375em rgba(199, 199, 199, 0.3);
+  padding: 1rem 2rem 1rem 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.personaldetailItems {
+  border-bottom: 1px solid #e0e0e0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1rem;
+  word-break: break-all;
+}
+
+.personaldetailItemslast {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1rem;
+}
+
+.detailSpan {
+  margin-bottom: 0.5rem;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  font-weight: bold;
+  font-size: large;
+  padding-left: 4px;
+}
+.hrdiv {
+  height: 1.5rem;
+  width: 1px;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+
+}
+
+
+@media screen and (max-width:992px){
+.container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+.detailSpan {
+  margin-bottom: 0.5rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-weight: bold;
+  font-size: large;
+  padding-left: 4px;
+
+}
+
+.hrdiv{
+  display: none;
+}
+
+.personaldetailItems {
+font-size: 14px;
+}
+
+.personaldetailItemslast {
+  font-size: 14px;
+
+}
+
+}
+
+@media screen and (max-width:768px){
+  .container {
+    padding: 1rem 0.8rem 1rem 0.8rem;
+    
+  }
+  
+.detailSpan{
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 4px;
+
+}
+
+.tableBox{
+  gap:16px
+}
+
+.myProfileRightpart {
+  gap: 16px;
+}
+}
