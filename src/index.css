@@ -1,0 +1,84 @@
+/* src/styles/tailwind.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+}
+
+.section-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+.section-2-cart {
+  border-radius: 22px;
+  border: 0px solid #f2f2f2;
+  background: #fff;
+
+}
+
+.section-2-cart {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.section-2-cart:hover {
+  cursor: pointer;
+  transform: translateY(12px);
+  box-shadow: 0px 2.76726px 2.21381px 0p;
+}
+
+.platform-section2-cart-heading {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+}
+
+.platform-section2-cart-info {
+  color: #9f7272;
+}
+
+
+.section-3-img {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  padding-right: 5px;
+  top: 50%;
+  left: 50%;
+}
+
+
+.platform-section3-cart-heading {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  flex-shrink:var(2px)
+}
+
+.platform-section4-cart-1st-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.section-5-child-2 {
+  border-radius: 88px;
+}
+
+
+.bookdemoapooinment{
+  min-width: 600px;
+  height: 500px;
+}
+
+
+

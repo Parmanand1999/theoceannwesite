@@ -1,0 +1,119 @@
+
+.tableBox{
+    /* display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto; */
+    gap: 32px;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.leftPart{
+    display: flex;
+    flex: 1;
+    gap: 27px;
+    flex-direction: column;
+}
+
+.imgBox{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height:210px;
+}
+
+.linkBox{
+    display:grid;
+    gap: 0px;
+    padding-top: 14px ;
+    padding-bottom: 100px ;
+    padding-left: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0.357em 0.375em rgba(199, 199, 199, 0.3);
+    height:290px;
+}
+
+.linkItems{
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+
+.linkItems:hover{
+background-color: rgb(212, 212, 241);
+}
+
+.rightPart{
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+   
+}
+
+.profilePhoto{
+    height: 63%;
+    border-radius: 170px;
+}
+
+@media screen and (max-width:992px){
+
+    .tableBox{
+        /* display: grid;
+        grid-template-columns: 20% auto;
+        grid-template-rows: auto auto; */
+        gap: 32px;
+        margin-right: 18%;
+        margin-top: 2%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction:column;
+    
+    }
+
+    .linkBox{
+        display:grid;
+        padding-top: 14px ;
+        padding-bottom: 14px ;
+        padding-left: 16px;
+        border-radius: 4px;
+        border: 1px solid #dbdbdb;
+        box-shadow: 0.357em 0.375em rgba(199, 199, 199, 0.3);
+    }
+
+    .profilePhoto{
+        height: 63%;
+        border-radius: 300px;
+    }
+
+    .imgBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 170px;
+    }
+.leftPart{
+    gap: 8px;
+}
+}
+
+@media screen and (max-width:768px){
+
+    .tableBox{
+        margin-right: 8%;
+    
+    }
+
+    .linkBox{
+  font-size: 14px;
+
+    }
+   
+}

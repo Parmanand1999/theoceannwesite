@@ -1,0 +1,55 @@
+.myDropdown{
+    /* border :1px solid white; */
+    position: absolute;
+    top: 70%;
+    right: 4%;
+    width: 10%;
+    background-color:white;
+    border-radius: 5px;
+   padding: 8px 8px 16px 8px;
+   
+    gap:4px;
+    
+}
+
+
+.myDropdown ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.myDropdown li {
+    padding: 10px;
+    color: #575757;
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.myDropdown li:hover{
+    background-color: rgb(215, 215, 255)
+}
+
+.icon-user:before {
+    content: '\f007';
+}
+
+.icon-tag:before {
+    content: '\f02b';
+}
+
+.icon-lock:before {
+    content: '\f023';
+}
+
+.icon-cog:before {
+    content: '\f013';
+}
+
+.icon-signout:before {
+    content: '\f08b';
+}
+
+/* Add font-awesome or another icon library for icons */

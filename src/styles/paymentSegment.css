@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.durationContainer {
+    display: flex;
+    gap: 16px;
+}
+
+
+.selectDurationDiv {
+    display: flex;
+    flex: 1
+}
+
+.inputDetailNumber {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 8px;
+}
+
+.plusButton {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 5%;
+    cursor: pointer;
+    font-size: large;
+    background-color: #12406A;
+    color: white;
+    font-weight: 700;
+
+
+}
+
+.minusButton {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 5%;
+    background-color: #12406A;
+}
+.userInputDiv{
+    display: flex;
+    flex-direction: row;
+}
+.userDetail {
+    display: flex;
+    gap: 120px;
+}
+
+
+
+.enterDetailHeading {
+    font-size: 24px;
+    font-weight: 700;
+    /* color: gray; */
+    padding: 0px;
+    margin: 0px;
+}
+
+.dataDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.selectDuration {
+    padding: 10px 72px 10px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.inputDuration {
+    padding: 12px 16px 12px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 32%;
+}
+
+.numberDuration {
+    /* padding: 8px 16px 8px 12px; */
+    padding-left:7%;
+    padding-top: 4%;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 20%;
+    height: 100%;
+}
+.userNumber {
+    border: 1px solid lightgray;
+    width: 9%;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.DetailLeftDiv {
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 18px;
+    padding: 32px 32px 48px 32px;
+    margin-left: 32px;
+    margin-top: 32px;
+    border-radius: 8px;
+    box-shadow: 7px 7px #f0f0f0;
+
+}
+.payButton{
+    background-color: #12406A;
+    color: white;
+}
+.cancelButton{
+    color: white;
+    background-color: grey;
+}
+
+
+
+.checkoutDetail {
+    padding: 0px 16px 0px 16px;
+}
+
+.DetailRightDiv {
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 18px;
+    padding: 32px 32px 48px 32px;
+    margin-left: 32px;
+    margin-top: 32px;
+    border-radius: 8px;
+    margin-right: 64px;
+    justify-content: space-between;
+    box-shadow: 7px 7px #f0f0f0;
+}
+
+.detailRow {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.detailRow2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.priceText {
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    display: flex;
+    font-weight: 600;
+
+}
+
+.userDataDetail {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: space-between;
+}
+
+
+.totalDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 12px 16px 12px 16px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #12406A;
+    color: white;
+    font-size: 14px;
+
+}
+
+.priceDiv {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: grey;
+}

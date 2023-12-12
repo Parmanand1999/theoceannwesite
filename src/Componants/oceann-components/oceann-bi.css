@@ -1,0 +1,21 @@
+.heading-container {
+    margin-top: 2rem;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: 600;
+}
+.section2-heading {
+    font-size: 32px;
+    /* margin-top: -1rem; */
+    background: linear-gradient(to left, transparent 0%, transparent 61%, #F39C12 61%, #F39C12 100%);
+    background-position: 0 100%;
+    background-size: 100% 4px;
+    font-weight: 600;
+    background-repeat: no-repeat;
+}
+.image:hover {
+    color: white; 
+  }
+

@@ -1,0 +1,10 @@
+.spinnerDiv{
+    /* border: 1px solid red; */
+    position:absolute;
+    margin: auto;
+    width: 8%;
+    height: 16%;
+    padding-left: 0.5%;
+    margin-left:46% ;
+    margin-top: 10%;
+}

@@ -1,0 +1,30 @@
+.section2-container {
+    background-color: #06071B;
+    color: white;
+    
+}
+
+.section2-heading1 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 26px;
+}
+
+.ocean-ai-section4 {
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    
+}
+
+.bottom-section4-img {
+    /* background-color: #242331; */
+    color: white;
+}
+
+.oceann-ai-section4-heading {
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+}
