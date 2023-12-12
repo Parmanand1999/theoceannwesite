@@ -9,6 +9,7 @@ export const Community = () => {
   };
   return (
     <section className="max-sm:mx-[1rem] mt-4 mx-[3rem]">
+      {/* console.log("888888"); */}
       <div style={image} className="flex flex-col">
         <div className="p-4 max-sm:text-center max-sm:p-0 max-sm:m-0">
           <div className="text-xl mt-2 ml-4 mb-2 max-sm:mx-0">
